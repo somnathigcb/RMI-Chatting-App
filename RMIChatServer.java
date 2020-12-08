@@ -5,6 +5,7 @@ import java.rmi.server.*;
 import java.rmi.registry.*;
 public class RMIChatServer extends UnicastRemoteObject implements ChatServerInterface
 {
+	//Author: Somnath Shirkule
 	Vector<ClientInfo> v;
 	String identity="rmi://localhost:1099/chatapp";
 	public RMIChatServer() throws RemoteException
